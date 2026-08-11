@@ -1,0 +1,54 @@
+EXPERIMENT 1: Lists, Links and Images
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruits and Vegetables</title>
+
+<script>
+function show(n,i,d)
+{
+    document.getElementById("info").innerHTML =
+    "<h2>"+n+"</h2><img src='"+i+"' width='200'><p>"+d+"</p>";
+}
+</script>
+</head>
+<body>
+<h1>Fruits and Vegetables</h1>
+<h3>25K65A1203</h3>
+<h2>Fruits</h2>
+<a href="#" onclick="show('Apple',
+'https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg',
+'Apple is rich in Vitamin C')">Apple</a><br>
+<a href="#" onclick="show('Banana',
+'https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg',
+'Banana is rich in potassium')">Banana</a><br>
+<a href="#" onclick="show('Mango',
+'https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg',
+'Mango is rich in vitamins')">Mango</a><br>
+<a href="#" onclick="show('Orange',
+'https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg',
+'Orange is rich in Vitamin C')">Orange</a><br>
+<a href="#" onclick="show('Grapes',
+'https://upload.wikimedia.org/wikipedia/commons/b/bb/Table_grapes_on_white.jpg',
+'Grapes contain antioxidants')">Grapes</a>
+<h2>Vegetables</h2>
+<a href="#" onclick="show('Carrot',
+'https://upload.wikimedia.org/wikipedia/commons/1/1c/Carrots_of_many_colors.jpg',
+'Carrot is rich in Vitamin A')">Carrot</a><br>
+<a href="#" onclick="show('Potato',
+'https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg',
+'Potato gives energy')">Potato</a><br>
+<a href="#" onclick="show('Tomato',
+'https://upload.wikimedia.org/wikipedia/commons/8/88/Bright_red_tomato_and_cross_section02.jpg',
+'Tomato is rich in Vitamin C')">Tomato</a><br>
+<a href="#" onclick="show('Spinach',
+'https://upload.wikimedia.org/wikipedia/commons/3/34/Spinach_leaves.jpg',
+'Spinach is rich in iron')">Spinach</a><br>
+<a href="#" onclick="show('Brinjal',
+'https://upload.wikimedia.org/wikipedia/commons/7/7b/Aubergine.jpg',
+'Brinjal is rich in fiber')">Brinjal</a>
+<div id="info">
+<h3>Click a name to see image and information</h3>
+</div>
+</body>
+</html>
