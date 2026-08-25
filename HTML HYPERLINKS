@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Hyperlinks</title>
+<style>
+body{font-family:Arial;background-color:#f2f2f2;padding:10px}
+h1{text-align:center;color:#1a237e;margin:2px}
+.roll{text-align:center;color:#d84315;font-weight:bold;margin:2px}
+.box{background:white;padding:8px;margin:5px auto;width:70%;border-radius:5px;box-shadow:0 0 3px gray}
+h2{margin:2px;color:#d84315}
+p{margin:2px}
+a{color:blue;font-size:18px}
+</style>
+</head>
+<body>
+<h1>Working of HTML Hyperlinks</h1>
+<div class="roll">Roll Number: 25K65A1203</div>
+<div class="box">
+<h2>Hyperlinks using &lt;a&gt;, href and target</h2>
+<p><a href="https://www.google.com" target="_blank">Open Google</a></p>
+<p><a href="https://www.youtube.com" target="_blank">Open YouTube</a></p>
+<p><a href="https://www.wikipedia.org" target="_self">Open Wikipedia</a></p>
+</div>
+</body>
+</html>
