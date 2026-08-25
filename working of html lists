@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Lists with CSS</title>
+<style>
+body{font-family:Arial;background:#f2f2f2;padding:10px}
+h1{text-align:center;color:#1a237e;margin:2px}
+.roll{text-align:center;color:#d84315;font-weight:bold;margin:2px}
+h2{color:#d84315;margin:2px}
+.box{background:white;padding:8px;margin:5px auto;width:70%;border-radius:5px;box-shadow:0 0 3px gray}
+p{margin:2px 0}
+ul,ol{margin:2px 0;font-size:16px}
+ul{color:green}
+ol{color:blue}
+dl{margin:2px 0}
+dt{color:purple;font-weight:bold}
+dd{color:#555;margin:1px 0}
+</style>
+</head>
+<body>
+<h1>Working of HTML Lists</h1>
+<div class="roll">Roll Number: 25K65A1203</div>
+<div class="box">
+<h2>1. Unordered List</h2>
+<p>An unordered list displays items using bullets.</p>
+<ul>
+<li>Apple</li>
+<li>Banana</li>
+<li>Mango</li>
+</ul>
+</div>
+<div class="box">
+<h2>2. Ordered List</h2>
+<p>An ordered list displays items using numbers.</p>
+<ol>
+<li>Wake up</li>
+<li>Brush Teeth</li>
+<li>Go to School</li>
+</ol>
+</div>
+<div class="box">
+<h2>3. Description List</h2>
+<p>A description list contains terms and their descriptions.</p>
+<dl>
+<dt>HTML</dt>
+<dd>Used to create web pages.</dd>
+<dt>CSS</dt>
+<dd>Used to style web pages.</dd>
+<dt>JavaScript</dt>
+<dd>Used to make web pages interactive.</dd>
+</dl>
+</div>
+</body>
+</html>
