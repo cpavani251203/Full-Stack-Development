@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Hyperlinks</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1a237e;
+        }
+
+        .roll {
+            color: #d84315;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            margin: 10px auto;
+            width: 70%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            border: 3px solid #1a237e;
+        }
+
+        p {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Image Hyperlinks</h1>
+
+    <div class="roll">
+        Roll Number: 25K65A1203
+    </div>
+
+    <div class="box">
+        <p>Click on an image to open the profile</p>
+
+        <div class="images">
+            <a href="myprofile.html" target="_blank">
+                <img src="myimage.jpg" alt="My Image">
+            </a>
+
+            <a href="friendprofile.html" target="_blank">
+                <img src="friend.jpg" alt="Friend's Image">
+            </a>
+        </div>
+
+        <p>My Profile &nbsp;&nbsp;&nbsp;&nbsp; Friend's Profile</p>
+    </div>
+
+</body>
+</html>
